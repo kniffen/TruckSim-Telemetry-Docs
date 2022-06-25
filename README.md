@@ -1,0 +1,1 @@
+[changelog](https://raw.githubusercontent.com/kniffen/TruckSim-Telemetry/master/README.md ':include')

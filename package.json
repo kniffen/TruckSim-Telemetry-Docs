@@ -1,0 +1,25 @@
+{
+  "name": "trucksim-telemetry-docs",
+  "version": "0.16.1",
+  "description": "TruckSim-Telemetry is a node module that takes telemetry data for Euro Truck Simulator 2 and American Truck Simulator provided by the [scs-sdk-plugin](https://github.com/RenCloud/scs-sdk-plugin) and outputs parsed data and events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-typedefs": "node ./scripts/generateTypedefs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kniffen/TruckSim-Telemetry-Docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kniffen/TruckSim-Telemetry-Docs/issues"
+  },
+  "homepage": "https://github.com/kniffen/TruckSim-Telemetry-Docs#readme",
+  "dependencies": {
+    "trucksim-telemetry": "^0.16.1",
+    "typescript": "^4.7.4"
+  }
+}

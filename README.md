@@ -1,1 +1,1 @@
-(https://raw.githubusercontent.com/kniffen/TruckSim-Telemetry/master/README.md ':include')
+[README](https://raw.githubusercontent.com/kniffen/TruckSim-Telemetry/master/README.md ':include')

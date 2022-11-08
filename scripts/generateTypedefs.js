@@ -8,23 +8,23 @@ const typedefsPath = path.resolve(__dirname, '../typedefs.md')
 const typedefs = []
 
 const genericTypes = {
-  128: {
+  130: {
     name: 'Object',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object'
   },
-  147: {
+  150: {
     name: 'String',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
   },
-  144: {
+  147: {
     name: 'Number',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number'
   },
-  179: {
+  183: {
     name: 'Array',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array'
   },
-  131: {
+  133: {
     name: 'Boolean',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean'
   }

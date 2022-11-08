@@ -12,9 +12,9 @@
 ### AdBlue
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| capacity | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| capacity | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | warning | [EngineWarning](typedefs.md#EngineWarning) | NO |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
@@ -23,30 +23,30 @@
 | ---- | ---- | -------- |
 | warning | [AirPressureWarning](typedefs.md#AirPressureWarning) | NO |
 | emergency | [AirPressureEmergency](typedefs.md#AirPressureEmergency) | NO |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### AirPressureEmergency
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| factor | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| enabled | [133](typedefs.md#133) | NO |
+| factor | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### AirPressureWarning
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| factor | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| enabled | [133](typedefs.md#133) | NO |
+| factor | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### AuxLight
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
@@ -61,8 +61,8 @@
 ### BlinkerStatus
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
-| active | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
@@ -80,7 +80,7 @@
 ### Cabin
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | position | [Position](typedefs.md#Position) | NO |
 | acceleration | [Acceleration](typedefs.md#Acceleration) | NO |
 | offset | [Offset](typedefs.md#Offset) | NO |
@@ -90,15 +90,15 @@
 ### Chassis
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Company
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
@@ -113,37 +113,37 @@
 ### ControlsGame
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| steering | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| throttle | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| brake | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| clutch | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| steering | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| throttle | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| brake | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| clutch | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### ControlsInput
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| steering | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| throttle | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| brake | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| clutch | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| steering | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| throttle | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| brake | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| clutch | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### CruiseControl
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| enabled | [133](typedefs.md#133) | NO |
-| kph | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| mph | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| kph | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| mph | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Differential
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| ratio | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| ratio | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | lock | [DifferentialLock](typedefs.md#DifferentialLock) | YES |
 
 ---
@@ -151,14 +151,14 @@
 ### DifferentialLock
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### Electric
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
@@ -170,8 +170,8 @@
 | batteryVoltage | [EngineStatus](typedefs.md#EngineStatus) | NO |
 | rpm | [Rpm](typedefs.md#Rpm) | NO |
 | oilTemperature | [OilTemperature](typedefs.md#OilTemperature) | NO |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| enabled | [133](typedefs.md#133) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
@@ -179,15 +179,15 @@
 | Name | Type | Optional |
 | ---- | ---- | -------- |
 | warning | [EngineWarning](typedefs.md#EngineWarning) | NO |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### EngineWarning
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| factor | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| enabled | [133](typedefs.md#133) | NO |
+| factor | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
@@ -197,23 +197,23 @@
 | source | [TravelSource](typedefs.md#TravelSource) | NO |
 | destination | [TravelDestination](typedefs.md#TravelDestination) | NO |
 | target | [TravelDestination](typedefs.md#TravelDestination) | NO |
-| amount | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | YES |
+| amount | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | YES |
 
 ---
 
 ### EventRefuel
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| active | [133](typedefs.md#133) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### EventTollgate
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| amount | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | YES |
+| amount | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | YES |
 
 ---
 
@@ -223,8 +223,8 @@
 | source | [TravelSource](typedefs.md#TravelSource) | NO |
 | destination | [TravelDestination](typedefs.md#TravelDestination) | NO |
 | target | [TravelDestination](typedefs.md#TravelDestination) | NO |
-| amount | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | YES |
+| amount | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | YES |
 
 ---
 
@@ -244,7 +244,7 @@
 ### EventsCruiseControl
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | currentSpeed | [Speed](typedefs.md#Speed) | NO |
 | speedLimit | [Speed](typedefs.md#Speed) | NO |
 | cruiseControlSpeed | [Speed](typedefs.md#Speed) | NO |
@@ -255,8 +255,8 @@
 | Name | Type | Optional |
 | ---- | ---- | -------- |
 | offence | [FineOffence](typedefs.md#FineOffence) | NO |
-| amount | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | YES |
+| amount | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | YES |
 
 ---
 
@@ -273,8 +273,8 @@
 ### EventsJobCancelled
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| penalty | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | NO |
+| penalty | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | startedTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | cancelledTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 
@@ -287,10 +287,10 @@
 | expectedDeliveryTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | destination | [JobLocation](typedefs.md#JobLocation) | NO |
 | cancelledTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
-| income | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| isSpecial | [133](typedefs.md#133) | NO |
+| income | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| isSpecial | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | market | [JobMarket](typedefs.md#JobMarket) | NO |
-| penalty | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| penalty | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | plannedDistance | [JobPlannedDistance](typedefs.md#JobPlannedDistance) | NO |
 | source | [JobLocation](typedefs.md#JobLocation) | NO |
 | startedTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
@@ -300,42 +300,42 @@
 ### EventsJobDelivered
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| timeTaken | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| timeTaken | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | startedTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | deliveredTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
-| earnedXP | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| cargoDamage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| earnedXP | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| cargoDamage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | distance | [EventsJobDeliveredDistance](typedefs.md#EventsJobDeliveredDistance) | NO |
-| autoParked | [133](typedefs.md#133) | NO |
-| revenue | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | NO |
+| autoParked | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| revenue | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### EventsJobDeliveredDistance
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| km | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| miles | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| km | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| miles | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### EventsJobDeliveredVerbose
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| autoParked | [133](typedefs.md#133) | NO |
-| isSpecial | [133](typedefs.md#133) | NO |
+| autoParked | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| isSpecial | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | cargo | [JobCargo](typedefs.md#JobCargo) | NO |
 | market | [JobMarket](typedefs.md#JobMarket) | NO |
-| cargoDamage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| cargoDamage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | distance | [EventsJobDeliveredDistance](typedefs.md#EventsJobDeliveredDistance) | NO |
-| earnedXP | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| earnedXP | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | expectedDeliveryTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | deliveredTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | plannedDistance | [JobPlannedDistance](typedefs.md#JobPlannedDistance) | NO |
-| revenue | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| revenue | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | startedTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
-| timeTaken | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| timeTaken | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | destination | [JobLocation](typedefs.md#JobLocation) | NO |
 | source | [JobLocation](typedefs.md#JobLocation) | NO |
 
@@ -344,27 +344,27 @@
 ### EventsJobFinished
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| active | [133](typedefs.md#133) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### EventsJobStarted
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| autoLoaded | [133](typedefs.md#133) | NO |
-| active | [133](typedefs.md#133) | NO |
+| autoLoaded | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### EventsJobStartedVerbose
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| autoLoaded | [133](typedefs.md#133) | NO |
+| autoLoaded | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | cargo | [JobCargo](typedefs.md#JobCargo) | NO |
 | expectedDeliveryTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | destination | [JobLocation](typedefs.md#JobLocation) | NO |
-| income | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| isSpecial | [133](typedefs.md#133) | NO |
+| income | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| isSpecial | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | market | [JobMarket](typedefs.md#JobMarket) | NO |
 | plannedDistance | [JobPlannedDistance](typedefs.md#JobPlannedDistance) | NO |
 | source | [JobLocation](typedefs.md#JobLocation) | NO |
@@ -374,68 +374,69 @@
 ### EventsRefuelPaid
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| amount | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| active | [133](typedefs.md#133) | YES |
+| amount | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| active | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | YES |
 
 ---
 
 ### FineOffence
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### Fuel
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| capacity | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| capacity | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | warning | [EngineWarning](typedefs.md#EngineWarning) | NO |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| avgConsumption | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| range | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| avgConsumption | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| range | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Game
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| sdkActive | [133](typedefs.md#133) | NO |
-| paused | [133](typedefs.md#133) | NO |
+| sdkActive | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| paused | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | timestamp | [GameTimestamp](typedefs.md#GameTimestamp) | NO |
 | simulationTimestamp | [GameTimestamp](typedefs.md#GameTimestamp) | NO |
 | renderTimestamp | [GameTimestamp](typedefs.md#GameTimestamp) | NO |
-| pluginVersion | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| version | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| multiplayerTimeOffset | [GameTimestamp](typedefs.md#GameTimestamp) | YES |
+| pluginVersion | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| version | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | game | [GameNestedGame](typedefs.md#GameNestedGame) | NO |
-| telemetryVersion | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| telemetryVersion | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | time | [GameTime](typedefs.md#GameTime) | NO |
-| maxTrailerCount | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| scale | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| maxTrailerCount | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| scale | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### GameNestedGame
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### GameTime
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| unix | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| unix | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### GameTimestamp
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
@@ -460,31 +461,31 @@
 | expectedDeliveryTimestamp | [JobTimestamp](typedefs.md#JobTimestamp) | NO |
 | plannedDistance | [JobPlannedDistance](typedefs.md#JobPlannedDistance) | NO |
 | cargo | [JobCargo](typedefs.md#JobCargo) | NO |
-| isSpecial | [133](typedefs.md#133) | NO |
+| isSpecial | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | destination | [JobLocation](typedefs.md#JobLocation) | NO |
 | source | [JobLocation](typedefs.md#JobLocation) | NO |
 | market | [JobMarket](typedefs.md#JobMarket) | NO |
-| income | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| income | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### JobCargo
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| mass | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| unitMass | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| isLoaded | [133](typedefs.md#133) | NO |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| mass | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| unitMass | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| isLoaded | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### JobCity
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
@@ -499,31 +500,31 @@
 ### JobMarket
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### JobPlannedDistance
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| km | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| miles | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| km | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| miles | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### JobTimestamp
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| unix | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| unix | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### LicensePlate
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [150](typedefs.md#150) | NO |
+| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 | country | [LicensePlateCountry](typedefs.md#LicensePlateCountry) | NO |
 
 ---
@@ -531,15 +532,15 @@
 ### LicensePlateCountry
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| name | [150](typedefs.md#150) | NO |
-| id | [150](typedefs.md#150) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### LiftAxle
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | indicator | [LiftAxleIndicator](typedefs.md#LiftAxleIndicator) | NO |
 
 ---
@@ -547,14 +548,14 @@
 ### LiftAxleIndicator
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### LightStatus
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
@@ -563,7 +564,7 @@
 | ---- | ---- | -------- |
 | auxFront | [AuxLight](typedefs.md#AuxLight) | NO |
 | auxRoof | [AuxLight](typedefs.md#AuxLight) | NO |
-| dashboardBacklight | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| dashboardBacklight | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | blinker | [Blinker](typedefs.md#Blinker) | NO |
 | parking | [Parking](typedefs.md#Parking) | NO |
 | beamLow | [LightStatus](typedefs.md#LightStatus) | NO |
@@ -578,41 +579,41 @@
 ### Make
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### Model
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [150](typedefs.md#150) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### Motor
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### NavSpeedLimit
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| kph | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| mph | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| kph | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| mph | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Navigation
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| nextRestStop | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| distance | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| time | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| nextRestStop | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| distance | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| time | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | speedLimit | [NavSpeedLimit](typedefs.md#NavSpeedLimit) | NO |
 
 ---
@@ -628,64 +629,64 @@
 ### OilTemperature
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Options
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| mmfName | [150](typedefs.md#150) | YES |
+| mmfName | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | YES |
 
 ---
 
 ### Orientation
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| heading | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| pitch | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| roll | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| heading | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| pitch | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| roll | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Parking
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
 
 ### Position
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| X | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| Y | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| Z | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| X | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| Y | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| Z | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Retarder
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| steps | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| level | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| steps | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| level | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Rpm
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| max | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| max | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Speed
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| kph | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| mph | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| kph | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| mph | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
@@ -694,12 +695,12 @@
 | ---- | ---- | -------- |
 | opts | [Options](typedefs.md#Options) | NO |
 | data | [TelemetryData](typedefs.md#TelemetryData) | NO |
-| game | [130](typedefs.md#130) | NO |
-| job | [130](typedefs.md#130) | NO |
-| navigation | [130](typedefs.md#130) | NO |
-| trailers | [130](typedefs.md#130) | NO |
-| trailer | [130](typedefs.md#130) | NO |
-| truck | [130](typedefs.md#130) | NO |
+| game | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | NO |
+| job | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | NO |
+| navigation | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | NO |
+| trailers | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | NO |
+| trailer | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | NO |
+| truck | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | NO |
 
 ---
 
@@ -713,7 +714,7 @@
 | navigation | [Navigation](typedefs.md#Navigation) | NO |
 | substances | [Substances](typedefs.md#Substances) | YES |
 | trailer | [Trailer](typedefs.md#Trailer) | NO |
-| trailers | [183](typedefs.md#183) | NO |
+| trailers | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
 | truck | [Truck](typedefs.md#Truck) | NO |
 
 ---
@@ -721,15 +722,16 @@
 ### Temperature
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| value | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| value | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Trailer
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| wheels | [183](typedefs.md#183) | NO |
-| attached | [133](typedefs.md#133) | NO |
+| wheels | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
+| attached | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| body | [TrailerDamageValue](typedefs.md#TrailerDamageValue) | YES |
 | cargo | [TrailerDamageValue](typedefs.md#TrailerDamageValue) | NO |
 | chassis | [TrailerDamageValue](typedefs.md#TrailerDamageValue) | NO |
 | acceleration | [Acceleration](typedefs.md#Acceleration) | NO |
@@ -737,11 +739,11 @@
 | position | [Position](typedefs.md#Position) | NO |
 | orientation | [Orientation](typedefs.md#Orientation) | NO |
 | model | [Model](typedefs.md#Model) | NO |
-| accessoryId | [150](typedefs.md#150) | NO |
-| bodyType | [150](typedefs.md#150) | NO |
+| accessoryId | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| bodyType | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 | make | [Make](typedefs.md#Make) | NO |
 | brand | [Make](typedefs.md#Make) | NO |
-| chainType | [150](typedefs.md#150) | NO |
+| chainType | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 | licensePlate | [LicensePlate](typedefs.md#LicensePlate) | NO |
 | damage | [TrailerDamage](typedefs.md#TrailerDamage) | NO |
 | liftAxle | [LiftAxle](typedefs.md#LiftAxle) | YES |
@@ -751,95 +753,96 @@
 ### TrailerDamage
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| cargo | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| chassis | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| wheels | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| total | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| body | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | YES |
+| cargo | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| chassis | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| wheels | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| total | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### TrailerDamageValue
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### TrailerWheel
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| lift | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| liftable | [133](typedefs.md#133) | NO |
-| liftOffset | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| onGround | [133](typedefs.md#133) | NO |
+| lift | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| liftable | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| liftOffset | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| onGround | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 | position | [Position](typedefs.md#Position) | NO |
-| powered | [133](typedefs.md#133) | NO |
-| radius | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| rotation | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| simulated | [133](typedefs.md#133) | NO |
-| steerable | [133](typedefs.md#133) | NO |
-| steering | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| powered | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| radius | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| rotation | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| simulated | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| steerable | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| steering | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | substance | [WheelSubstance](typedefs.md#WheelSubstance) | NO |
-| suspDeflection | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| velocity | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| suspDeflection | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| velocity | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### TrailerWheelSubstance
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### Transmission
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| forwardGears | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| reverseGears | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| selectors | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| slot | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| slots | [183](typedefs.md#183) | NO |
+| forwardGears | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| reverseGears | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| selectors | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| slot | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| slots | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
 | gear | [TransmissionGear](typedefs.md#TransmissionGear) | NO |
-| gearRatiosForward | [183](typedefs.md#183) | NO |
-| gearRatiosReverse | [183](typedefs.md#183) | NO |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| selector | [183](typedefs.md#183) | NO |
-| shifterType | [150](typedefs.md#150) | NO |
+| gearRatiosForward | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
+| gearRatiosReverse | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| selector | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
+| shifterType | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### TransmissionGear
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| selected | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| displayed | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| selected | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| displayed | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### TransmissionSlot
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| handlePosition | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| selector | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| gear | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| handlePosition | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| selector | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| gear | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### TravelDestination
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| name | [150](typedefs.md#150) | NO |
-| id | [150](typedefs.md#150) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### TravelSource
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| name | [150](typedefs.md#150) | NO |
-| id | [150](typedefs.md#150) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
@@ -848,7 +851,7 @@
 | ---- | ---- | -------- |
 | transmission | [Transmission](typedefs.md#Transmission) | NO |
 | brakes | [Brakes](typedefs.md#Brakes) | NO |
-| wheels | [183](typedefs.md#183) | NO |
+| wheels | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | NO |
 | lights | [Lights](typedefs.md#Lights) | NO |
 | fuel | [Fuel](typedefs.md#Fuel) | NO |
 | adBlue | [AdBlue](typedefs.md#AdBlue) | NO |
@@ -858,7 +861,7 @@
 | cruiseControl | [CruiseControl](typedefs.md#CruiseControl) | NO |
 | cabin | [Cabin](typedefs.md#Cabin) | NO |
 | chassis | [Chassis](typedefs.md#Chassis) | NO |
-| odometer | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| odometer | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | electric | [Electric](typedefs.md#Electric) | NO |
 | wipers | [Wipers](typedefs.md#Wipers) | NO |
 | head | [Head](typedefs.md#Head) | NO |
@@ -878,12 +881,12 @@
 ### TruckDamage
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| cabin | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| chassis | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| engine | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| transmission | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| wheels | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| total | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| cabin | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| chassis | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| engine | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| transmission | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| wheels | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| total | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
@@ -891,50 +894,50 @@
 | Name | Type | Optional |
 | ---- | ---- | -------- |
 | substance | [WheelSubstance](typedefs.md#WheelSubstance) | NO |
-| radius | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| suspDeflection | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| velocity | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| steering | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| rotation | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| lift | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| liftOffset | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| radius | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| suspDeflection | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| velocity | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| steering | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| rotation | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| lift | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| liftOffset | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 | position | [Position](typedefs.md#Position) | NO |
-| steerable | [133](typedefs.md#133) | NO |
-| simulated | [133](typedefs.md#133) | NO |
-| powered | [133](typedefs.md#133) | NO |
-| liftable | [133](typedefs.md#133) | NO |
-| onGround | [133](typedefs.md#133) | NO |
-| damage | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| steerable | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| simulated | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| powered | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| liftable | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| onGround | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
+| damage | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### Velocity
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| X | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| Y | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| Z | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
+| X | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| Y | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| Z | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
 
 ---
 
 ### WatchOptions
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| interval | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | YES |
+| interval | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | YES |
 
 ---
 
 ### WheelSubstance
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| id | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
-| name | [150](typedefs.md#150) | NO |
+| id | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | NO |
+| name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | NO |
 
 ---
 
 ### Wipers
 | Name | Type | Optional |
 | ---- | ---- | -------- |
-| enabled | [133](typedefs.md#133) | NO |
+| enabled | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | NO |
 
 ---
